@@ -78,13 +78,133 @@ body {
   border-right: 2px solid black;
   padding: 0 10px;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .info-stockx {
   display: flex;
   gap: 20px;
-  font-size: 12px;
+  font-size: 22.5px;
   color: #666666;
 }
 .new {
   color: #07A05D;
+}
+.all-icon {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  margin: 0;
+  height: 75px;
+}
+.p-color {
+  font-size: 24px;
+  margin: 0;
+}
+.box-size {
+  border-right: 1.5px solid gray;
+  padding: 0 40px;
+  height: 90px;
+}
+.body-size-price {
+  display: flex;
+}
+.size {
+  margin-left: 30px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0 30px 0 10px;
+}
+.price p {
+  margin: 0;
+}
+.price-sale  {
+  margin-left: 20px;
+  width: 270px;
+  padding-left: 0px;
+}
+.price-sale p {
+  margin: 0;
+}
+.price-v {
+  font-size: 20px;
+  color: #07A05D;
+  padding-left: 25px;
+}
+.talla6-5 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0;
+}
+.body-size {
+  border-right: 2px solid gray;
+  padding: 0 10px 0 0;
+}
+.button-green {
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+  background: green;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  width: 250px;
+  justify-content: space-evenly;
+}
+.button-red {
+  display: flex;
+  gap: 10px;
+  background: red;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  width: 250px;
+  justify-content: space-evenly;
+}
+.flex {
+  text-align: center;
+}
+.flex-1 {
+  border-right: 2px solid rgb(221, 217, 217);
+  padding: 0 30px 0 0;
+}
+.p-size {
+  font-size: 40px;
+  margin: 0;
+}
+.p-gray {
+  color: rgb(228, 228, 228);
+}
+.p-center {
+  text-align: center;
+}
+.img-principl {
+  display: flex;
+  overflow: auto;
+  gap: 100px;
+}
+.img-principl  img {
+  width: 100%;
+  margin: auto;
+}
+.info-shoes-jordan {
+  display: flex;
+  gap: 5px;
+  /* margin: 0;sssss */
+}
+.info-shoes-jordan-retro {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 0;
+}
+.color-black {
+  font-weight: bold;
+}
+.color-gray-1 {
+  color: gray;
 }
