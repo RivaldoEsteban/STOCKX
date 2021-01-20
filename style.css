@@ -3,6 +3,12 @@ body {
   color: black;
   margin: 0;
 }
+input {
+  width: 768px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 .wrapper {
   max-width: 1300px;
   margin: auto;
@@ -10,6 +16,10 @@ body {
 }
 .header {
   box-shadow: 1px 5px 4px rgba(0, 0, 0, .2);
+}
+.canvas {
+  width: 800px;
+  margin: 0 auto;
 }
 .header-container {
   display: flex;
